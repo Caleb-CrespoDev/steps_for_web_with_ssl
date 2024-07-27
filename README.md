@@ -61,7 +61,7 @@ vim /home/ubuntu/docker/letsencrypt-docker-nginx/src/letsencrypt/letsencrypt-sit
 </html>
 ```
 
-cd /home/ubunu/docker/letsencrypt-docker-nginx/src/letsencrypt
+cd /home/ubuntu/docker/letsencrypt-docker-nginx/src/letsencrypt
 
 docker compose up -d
 
