@@ -115,7 +115,7 @@ networks:
     driver: bridge
 ```
 
-vim /home/docker/docker/letsencrypt-docker-nginx/src/production/production.conf
+vim /home/ubuntu/docker/letsencrypt-docker-nginx/src/production/production.conf
 
 ```
 server {
