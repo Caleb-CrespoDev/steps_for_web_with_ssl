@@ -107,7 +107,7 @@ services:
       - ./production-site:/usr/share/nginx/html
       - /home/ubuntu/docker-volumes/etc/letsencrypt/live/crespodev.com/fullchain.pem:/etc/letsencrypt/live/crespodev.com/fullchain.pem
       - /home/ubuntu/docker-volumes/etc/letsencrypt/live/crespodev.com/privkey.pem:/etc/letsencrypt/live/crespodev.com/privkey.pem
-    networks:crespodev
+    networks:
       - docker-network
 
 networks:
