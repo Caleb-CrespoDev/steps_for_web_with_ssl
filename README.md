@@ -82,7 +82,7 @@ certonly --webroot \
 -d crespodev.com
 ```
 
-cd /home/ubunu/docker/letsencrypt-docker-nginx/src/letsencrypt
+cd /home/ubuntu/docker/letsencrypt-docker-nginx/src/letsencrypt
 
 docker compose down
 
