@@ -147,5 +147,6 @@ server {
 ```
 
 cd /home/ubuntu/docker/letsencrypt-docker-nginx/src/production
-docker-compose up -d
+
+docker compose up -d
 
