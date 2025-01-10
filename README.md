@@ -1,5 +1,5 @@
 # Steps to build up a web with SSL
-1. Levantar una web con http
+### 1. Levantar una web con http
 
 mkdir -p /home/ubuntu/docker/letsencrypt-docker-nginx/src/letsencrypt/letsencrypt-site
 
@@ -67,7 +67,7 @@ docker compose up -d
 
 ---
 
-2. Pedir certificado SSL.
+### 2. Pedir certificado SSL.
 
 ```
 docker run -it --rm \
@@ -88,7 +88,7 @@ docker compose down
 
 ---
 
-3. Levantar tu web con HTTPS
+### 3. Levantar tu web con HTTPS
 
 mkdir -p /home/ubuntu/docker/letsencrypt-docker-nginx/src/production/production-site
 
